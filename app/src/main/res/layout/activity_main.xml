@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <RadioButton
-        android:id="@+id/square"
+        android:id="@+id/even"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chính phương"
+        android:text="Chẵn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Number" />
 
@@ -25,10 +25,10 @@
         app:layout_constraintTop_toBottomOf="@+id/Number" />
 
     <RadioButton
-        android:id="@+id/even"
+        android:id="@+id/square"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chẵn"
+        android:text="Chính Phương"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Number" />
 
